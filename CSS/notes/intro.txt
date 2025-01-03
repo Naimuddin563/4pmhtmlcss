@@ -1,0 +1,109 @@
+CSS(Cascading style sheets): These files are used to design/style the web page
+They were introduced in 1994.The current version of CSS is CSS3
+There are 3 types of CSS:
+  i. inline CSS:
+  inline CSS will be applied to any HTML element with 'style'
+  as a attribute
+  eg:<h1 style="background-color: black; color: white;">Hello Everyone</h1>
+  ii. internal CSS:
+  internal CSS will be applied to any element or elements with 'style'
+  as an element
+  <style>
+     selector
+     {
+      //poperties
+     }
+  </style>
+ It is not mandatory to write style element in head, but it will help better performance and SEO
+  iii. external CSS:
+  external CSS will be applied to any element or anyelements as a separate file with '.css' extension
+you have to link with 
+    <link rel="stylesheet" href="./style.css">
+
+inline is the most powerful and between internal and external it depends on the latest one
+
+
+Basic Selectors:
+ 1. tag selector:
+ tag selectors selects all the elements of that tag name
+eg: h1{
+
+}
+  2. class name:
+  class name is used to select multiple elements with same class name, if we are using classname, it preceeds with dot
+  .classname
+
+  3. idname:
+  id's are used to select any element uniquely and it preceeds with hash(#)
+  #id
+
+if i want to overcome any css priority !important for any property
+
+!important > inline >internal/external(id>class>tag)
+
+
+To Understand Design well, we need to master few basics:
+i. units
+ii. colors
+iii. fonts
+
+
+i. units: units defines the size metrics.
+  a.px  --- pixels are the smallest unit of screen but they are not responsive
+  b.vh,vw --- viewport height,viewport width-- they are used to assign units according to screen
+  c.% -- percentage is used to provide some x % of its parent
+  d. em -- enumerated value -- it takes x times of parents font size
+  e. rem -- root enumerated value -- it takes always root font size(16px)
+
+
+2. colors:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

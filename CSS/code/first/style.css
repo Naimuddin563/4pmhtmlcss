@@ -1,0 +1,40 @@
+
+        body
+        {
+            background-color:antiquewhite;
+            height: 100vh;
+        }
+        h1
+        {
+            background-color: black !important;
+            color: white;
+        }
+.bujji{
+    background-color: yellowgreen;
+}
+#fourthHeading{
+    background-color: red;
+}
+#myDiv
+{
+    background-color: black;
+    color: white;
+    /* height:100px;
+    width: 500px; */
+    /* height: 50vh;
+    width: 50vw; */
+    height: 50%;
+    width: 50%;
+    font-size: 32px;
+}
+
+#para{
+    color: black;
+    height: 3em;
+    background-color: white;
+}
+
+
+
+
+
