@@ -57,6 +57,62 @@ i. units: units defines the size metrics.
 
 
 2. colors:
+   Different colors represnts different meanings. color is part of the brand.
+   we can assign color with multiple properties such as background-color and color in different variations
+     i.name: we can specify colors by name;
+     ii. hexcode: every color will be represented by a hexadecimal code
+    iii. rgb(r,g,b): each value ranges from 0 to 255
+     rgba(r,g,b,alpha): it brings different shades of single color. 0.0 is the lowest and 1.0 is the highest
+    iv. hsl(hue,saturation,lightness): hue is the degree from 0-360.
+    saturation: % of darkness
+    lightness: % of lighness
+    we can also use hsla
+you can also specify multiple colors called gradients.
+background: linear-gradient(color1,color2...)
+or
+background:radial-gradient(color1,color2....)
+linear gradient show colors transform in horizontal or vertical direction and radial gradient shows in circular
+
+iii. fonts: fonts represents the brand. we use different font styles to express different goals
+there are 5 different font families exist
+  i. serif: serif fonts are used for documentations because they have stroke at end of every character
+    Eg: Times New Roman
+  ii. sans-serif:serif fonts are used for unofficial docs  because they do not  have stroke at end of every character
+  iii. monospace: they have same space between each character and same height
+  iv. fantasy: these are new fonts created
+  v.   cursive: cursive letters are combined ones
+
+  sites to refer: dafonts, 1001fonts, google fonts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
