@@ -1,0 +1,1 @@
+float is used to keep elements floated such that element lost the place and adjust into sides
