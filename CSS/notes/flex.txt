@@ -1,0 +1,13 @@
+flex is used to arrange the elements in single direction(horizontal/vertical). horizontal is called row and vertical is called column.
+default direction is 'row'.
+display:flex should be applied to parent elements
+flex-direction: used to specify direction in which child items are arranged(row/column/row-reverse/column-reverse)
+justify-content: used to arrange elements in the same direction of flex direction ( start/left/right/end/center/
+space-between/space-evenly/space-around)
+align-items: used to arrange elements in the opposite direction of flex direction (start/left/center/right/end)
+
+
+
+
+
+

@@ -1,15 +1,38 @@
 .container{
-    border: 5px solid red;
-    width: 600px;
-    height: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+    align-items:start;
+    /* flex-wrap: wrap;
+    align-content: center; */
+ 
+    height: 300px;
+    width: 600px;
+    border: 2px solid red;
 }
 .box{
-    border: 1px solid green;
-    width: 100px;
     height: 100px;
+    width: 100px;
+    border: 2px solid green;
 }
+.box3{
+    /* align-self: end;
+    justify-self: left; */
+  order: -1;
+  flex-grow: 2;
+}
+.box1{
+    order: -2;
+}
+.box4{
+    order: 1;
+    flex-basis: 100px;
+}
+.box5{
+flex-shrink: 2;
+
+}
+
+
+
+
+
