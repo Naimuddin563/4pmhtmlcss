@@ -1,10 +1,10 @@
-.container{
+/* .container{
     display: flex;
     flex-direction: row;
     align-items:start;
     /* flex-wrap: wrap;
     align-content: center; */
- 
+ /*
     height: 300px;
     width: 600px;
     border: 2px solid red;
@@ -14,10 +14,10 @@
     width: 100px;
     border: 2px solid green;
 }
-.box3{
+.box3{*/
     /* align-self: end;
     justify-self: left; */
-  order: -1;
+  /*order: -1;
   flex-grow: 2;
 }
 .box1{
@@ -35,4 +35,18 @@ flex-shrink: 2;
 
 
 
-
+ */
+.container{
+    display: flex;
+    border: 2px solid red;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+ .box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
