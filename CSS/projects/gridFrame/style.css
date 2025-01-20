@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    max-height: 80vh;
+    width: 60vw;
+    background-image: url('https://e7.pngegg.com/pngimages/782/664/png-clipart-frame-frame-gold-colored-frame-frame-album-thumbnail.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 20px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: repeat(4,1fr);
+}
+.item{
+    border: 1px solid green;
+    overflow: hidden;
+}
+.item1{
+    grid-column:1/4;
+  
+}
+.item1>img{
+      object-position: top center !important;
+}
+.item3{
+    grid-row:2/5;
+}
+.item7,.item9{
+    grid-column:2/4;
+}
+.item8{
+    grid-row:3/5;
+    grid-column:4/5;
+}
+.item>img{
+    object-fit:cover;
+    object-position: center top;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
