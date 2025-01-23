@@ -1,0 +1,24 @@
+Transition: transition means moving from one state to another state.
+You can control transition of an element by 'transition' property.
+transition: property time(s) timingFunction
+property: provide which property to show transition or 'all'
+time(duration): time in seconds or milliseconds
+timingFunction: it defines the speed in which element moves from one state to another state
+
+there are so many properties which can be applied for nice
+ transition effects
+
+transform: scale()--- Zoom
+           rotate() -- rotation
+           translateX() -- move horizontally
+           translateY() -- move vertically
+
+filter: none/grayscale/contrast/drop-shadow/brightness/blur/hue-rotate()
+
+clip-path:none/circle/ellipse/polygon
+
+
+
+
+
+
