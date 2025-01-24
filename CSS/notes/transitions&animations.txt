@@ -17,7 +17,7 @@ filter: none/grayscale/contrast/drop-shadow/brightness/blur/hue-rotate()
 
 clip-path:none/circle/ellipse/polygon
 
-
+animation: animation is nothing but element moves from one state to another stages via multiple states , simple it is multiple transitions
 
 
 

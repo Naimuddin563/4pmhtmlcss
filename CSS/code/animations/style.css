@@ -1,0 +1,97 @@
+/* body{
+    height: 100vh;
+}
+#box{
+    height: 5em;
+    width: 5em;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: red;
+    /* animation-name: upDown;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 5s; */
+   /* animation:upDown 8s ease alternate 5s infinite;
+}
+@keyframes upDown {
+     25%{
+transform: translateX(500px) translateY(600px);
+border-color: red;
+     }
+    50%{
+      transform: translateX(600px) translateY(300px);
+      border-color: yellow;
+    }
+    75%{
+       transform: translateX(200px) translateY(300px);
+       border-color: green;
+    }
+    100%{
+transform:translateX(200px) translateY(200px);
+border-color: violet;
+    }
+} */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    height: 100vh;
+ }
+ div{
+    display: flex;
+ }
+ .top
+ {
+    height: 20px;
+    background-color: black;
+    animation: loadingg;
+    transform-origin: left;
+    animation-timeline: scroll;
+ }
+ .bigbox{
+    height: 400px;
+ }
+ @keyframes loadingg{
+    0%{
+       transform: scaleX(0) scale(1);
+    }
+    100%{
+       transform: scaleX(1) scale(1);
+    }
+ }
+ div>span{
+    
+    font-size: 32px;
+    animation: slide 1s ease alternate infinite;
+    display: block;
+ }
+ div>span>img{
+    height: 50px;
+ }
+  div>span:nth-child(1){
+    animation-delay: 0.2s;
+ } 
+ div>span:nth-child(2){
+    animation-delay: 0.4s;
+ } 
+ div>span:nth-child(3){
+    animation-delay: 0.3s;
+ } 
+ div>span:nth-child(4){
+    animation-delay: 0.5s;
+ } 
+ div>span:nth-child(5){
+    animation-delay: 0.7s;
+ } 
+ div>span:nth-child(6){
+    animation-delay: 0.8s;
+ } 
+
+ @keyframes slide {
+   100%{
+       transform:translateY(500px);
+    }
+ }
