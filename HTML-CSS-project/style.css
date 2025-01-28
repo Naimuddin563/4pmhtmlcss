@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: all 0.8s ease;
+    scroll-behavior: smooth;
 }
 :root{
     /* root is used for creating global variables */
@@ -66,6 +67,12 @@ justify-content: space-evenly;
   border-radius: 20px;
   width: max-content;
 }
+section{
+    padding: 50px 0px;
+}
+button>a:hover{
+    color: white;
+}
 .left>h2{
     font-size: 68px;
     
@@ -102,9 +109,69 @@ button{
     color: white;
 }
 /* banner ends here */
-
-
-
+/* about start here */
+  .heading{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 28px;
+  }
+  #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .About-right>p{
+    font-size: 24px;
+  }
+  p+ul{
+    list-style: none;
+    padding: 20px 0px;
+  }
+  .About-left>img{
+    height: 300px;
+    border-radius: 50%;
+  }
+/* about ends here */
+/* skills starts here */
+#skills{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 30px;
+}
+#skills>img{
+    height: 100px;
+}
+/* skills ends here */
+/* projects starts here */
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.project{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px #333;
+}
+.project>img{
+    width: 300px;
+}
+.project button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.project button a{
+    color:white
+}
+/* projects ends here */
 
 
 
@@ -117,7 +184,43 @@ footer{
     text-align: center;
     padding: 50px 0px;
 }
+/* contact starts here */
+  #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 
+  input{
+    width: 50vw;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  textarea{
+   width: 50vw;
+    height: 100px;
+    resize: none;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  textarea::placeholder,input::placeholder{
+    padding: 20px;
+  }
+  form>button{
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+  }
+/* contact ends here */
 
 
 /* media queries */
@@ -144,6 +247,22 @@ footer{
     .left>h2{
         font-size: 52px;
     }
+     #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 30px;
+  }
+  .About-right>p{
+    font-size: 20px;
+  }
+  #skills{
+   grid-template-columns: repeat(3,1fr);
+}
+#projects{
+    grid-template-columns: repeat(2,1fr);
+}
 }
 @media (max-width:480px){
     header{
@@ -176,4 +295,23 @@ footer{
       width: 350px;
       height: 400px;
     }
+     #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 30px;
+  }
+  .About-right>p{
+    font-size: 20px;
+  }
+  #skills{
+   grid-template-columns: repeat(1,1fr);
+   place-items: center;
+}
+#projects{
+    grid-template-columns: repeat(1,1fr);
+    margin: 20px;
+}
 }
