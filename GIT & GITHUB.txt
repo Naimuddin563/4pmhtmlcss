@@ -1,5 +1,5 @@
 GIT & GITHUB
-gh   steps to install
+   steps to install
      1. goto google and type "git for windows"
      2. goto downlaods-git --> 64 bit windows setup
      3. double click--->yes--->next--->next

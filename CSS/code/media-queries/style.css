@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+}
+@media (max-width:576px) {
+   .container{
+    flex-direction: column;
+   }
+}
