@@ -1,0 +1,13 @@
+Javascript: 
+   Javascript is used for the functionality of the web page. Javascript is developed by brenden Eich and released in 1995,December 4. Initially it is named as LiveScript but due to popularity of Java, it is changed as "javascript"
+
+   --> javascript files has extension .js
+   --> javascript can be included to HTML in two ways
+       i. internal Javascript : Internal Javascript is triggered by 'script' tag 
+       ii. External Javascript: External Javascript is also triggered by 'script' tag but contains 'src' value
+  we prefer mostly external js
+1. How to comment in Javascript?
+   comments are used for reading purposes. They will not be executed
+   They are two ways of comments in js
+    i. single line comment: they were written after '//'
+    ii. multiple line comment: they were written between '/* and */

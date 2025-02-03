@@ -13,3 +13,7 @@ github
 flexboxfroggy
 gridgarden
 do projects
+
+1. goto dribble.com create an account and weekly twice post designs(use figma)
+2. goto behance.com create an account and weekly twice post designs(use figma)3. 3. daily spend atleast 5 minutes on medium, dev.to or hashnode.dev
+4. goto fiverr.com and upwork.com create accounts and posts your skills/service you can provide
