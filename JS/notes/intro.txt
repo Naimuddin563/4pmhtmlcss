@@ -3,11 +3,47 @@ Javascript:
 
    --> javascript files has extension .js
    --> javascript can be included to HTML in two ways
-       i. internal Javascript : Internal Javascript is triggered by 'script' tag 
+       i. internal Javascript : Internal Javascript is triggered by 'script' tag .
+       <script>
+         //code
+        <script>
        ii. External Javascript: External Javascript is also triggered by 'script' tag but contains 'src' value
+       <script src="path"></script>
   we prefer mostly external js
 1. How to comment in Javascript?
    comments are used for reading purposes. They will not be executed
    They are two ways of comments in js
     i. single line comment: they were written after '//'
     ii. multiple line comment: they were written between '/* and */
+
+2. Google developer Tools and console.
+Every browser will have a js engine . JS engine for chrome is v8.
+Every browser also have set of tools to understand , debug webpage. Those tools are called google developer tools.
+In Developer Tools, we have console, which knows complete JS in a web page. so we use console for debugging purposes
+
+console.log()  -- is used to print a value in console
+
+3. how to declare variables in JS?
+we can declare variables in JS using var,let and const. A variable is used to store a value
+  var is a function scoped variable which can redeclare and reassign
+  let is a block scoped variable which can reassign but cannot redeclare
+  const is a block scoped variable which cannnot redeclare or reassign
+  function fun ()
+{
+    if (true)
+    {
+        var a = 55; let b = 36; const c = 34;
+    }
+    console.log(a,b)
+}
+fun()
+
+4. is semicolon mandatory in JS? is JS case sensitive?
+In JS, semicolons are automatically inserted by browser for each line.
+JS is case sensitive
+
+
+
+
+
+
