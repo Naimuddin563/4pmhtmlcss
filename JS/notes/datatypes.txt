@@ -1,0 +1,32 @@
+Javascript is  dynamically typed language
+In Javascript , the type of a variable changes accordign to value it holds. Basic data types are categorized as two types
+  primitve data types
+  non-primitive data types
+
+i. primitive data types: these data types are considered purely based on the value. The most used primitive are 
+  a. number: Any numerical value is a number
+   eg: let x=20.3152;
+   console.log(typeof x) //number
+   number types have some default methods like
+
+    toFixed(noOfDecimalDigits): results number with certain number of DecimalDigits rounded
+    eg: let n= 2.1548, 
+    console.log(n.toFixed(2)) //2.16
+
+    toPrecision(totalNoOfDigits): results number with total number of digits rounded.
+    let n=23.4156
+    console.log(n.toPrecision(3)) //23.
+
+    toString(baseValue): toString will convert given number into string of another base
+    let n=23;
+    n.toString(2)  -- converts n into binary --10111
+
+    numbers can also have special default methods called math methods
+
+    
+
+
+
+
+
+

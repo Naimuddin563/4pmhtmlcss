@@ -34,7 +34,8 @@ we can declare variables in JS using var,let and const. A variable is used to st
     {
         var a = 55; let b = 36; const c = 34;
     }
-    console.log(a,b)
+    console.log(a) //55
+    console.log(b) //error because b is block scoped
 }
 fun()
 
