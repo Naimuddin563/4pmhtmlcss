@@ -1,12 +1,12 @@
 BASIC JS:
    let,var,const
-   datatypes
+   datatypes(numbers - math , string , boolean , undefined , null)
    operators
-   arrays
    functions
-   objects
    if and switch
    loops
+   arrays
+   objects
 DOM 
 ASYNC JS
      -- promise

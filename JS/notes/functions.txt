@@ -1,0 +1,102 @@
+Functions: Functions are the block of reusable code which are used to perform a specific task
+    functions are defined with global object , but methods belongs to certain object. functions have scope called functional scope
+  syntax: function function_name(parameters) //prototype
+               {
+                 // body
+               }
+              function_name() // function call
+// simple functions
+    eg: function display ()
+{
+  console.log("hello world")   
+}
+display()
+
+function can even take parameters
+eg:  function displayName (n)
+{
+    console.log(`Welcome to ${n}`)
+}
+displayName("raj");
+
+function can take multiple parameters and function can assign default values to parameters which will work only if parameter value is not passed
+eg: function add (a,b=10)
+{
+    console.log(a+b)
+}
+add(2, 3)
+add("raj", "shekhar")
+add(2, 5, 6)
+add(1)
+add("raj")
+
+functions can even return the values using 'return' keyword
+function mul (a, b)
+{
+    return a * b;
+}
+let res = mul(5, 4)
+console.log(res);
+ function expressions declare anonymous functions as a variable
+write function expression for above function
+let mul =  function(a,b){
+  return a*b;
+}
+let res = mul(5, 4)
+console.log(res);
+
+The modern way of defining function expression is "Arrow Functions"
+let mul = (a,b) => a*b; 
+let res = mul(5, 4)
+console.log(res);
+
+if single statement is there in function body,
+arrow functions not needed the braces and return keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
