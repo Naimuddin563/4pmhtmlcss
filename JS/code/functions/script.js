@@ -1,3 +1,11 @@
+//IIFE
+;(function () {
+	let generateId = Math.round(Math.random() * 100000)
+	console.log("ur id is " + generateId)
+	// secret keys
+})()
+
+
 // function to print hello world
 function display ()
 {
@@ -23,13 +31,10 @@ add(1)
 add("raj")
 
 // functions can returns the values
-function mul (a, b)
-{
-    return a * b;
-}
+let x=(a, b)=> a * b;
 let res = mul(5, 4)
 console.log(res);
-
+console.log(mul)
 
 
 
@@ -68,6 +73,125 @@ add3(5, 3)
 let add4 = (a,b) => console.log(a + b)
 console.log(add4)
 add4(5,3)
+
+// callback functions
+function mad() {
+	console.log("i'm mad")
+}
+function bad() {
+	console.log("i'm bad")
+}
+function fun(a, b) {
+	a()
+	b()
+}
+fun(mad, bad) 
+// mad and bad are passed as a parameter to another function
+// so they are called callback functions
+// fun received functions as a parameters, so fun is called
+//Higher order function
+
+function incr (a)
+{
+    return a++;
+}
+function logic (a, b)
+{
+    console.log(b)
+    let x = a + b(5);
+    console.log(x)
+}
+logic(2,incr)
+// function addToCart
+// function CartPage(addTocart)
+// function checkout(cartPage)
+
+
+function add (a, b)
+{
+    console.log(a+b)
+}
+function sub (a, b)
+{
+    console.log(a-b)
+}
+function mul (a, b)
+{
+    console.log(a*b)
+}
+function div (a, b)
+{
+    console.log(a / b);
+}
+function calculator (a, b, c, d)
+{
+    a(2, 4); 
+}
+calculator(add, sub, mul, div);
+
+
+
+// closure
+function outer ()
+{
+    var x = 25;   
+    function inner ()
+    {
+        x++;
+        console.log(x)
+    }
+    return inner;
+}
+let result = outer();
+console.log(result) // complete inner function
+result();
+result();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,50 @@
+Arrays are used to store elements. Array is a collection of elements.
+eg: let arr = [5,44,6,3]
+arr[0] = 5;
+arr[1]=44
+....
+
+length is a method of array which returns total number of elements in the array.
+
+
+// Arrays methods:
+i. push(): push is used to insert a value into the array as last value
+  eg: array.push(values)
+ii. pop(): pop is used to remove only the ending value of the array
+  eg: array.pop()
+iii. unshift() : unshift is used to insert value/values into the array as first value
+  eg: array.unshift(values)
+iv. shift(): shift is used to remove only starting value of the array
+  eg: array.shift()
+v. splice(starting_index,deleteCount,insertValues)
+   it is used to delete any number of values or insert any number of values to the array
+   eg: let arr= [5,4,6,7];
+       arr.splice(1)  -- will delete whole array from index 1
+       arr.splice(1,2) -- will delete 2 values from index 1
+       arr.splice(1,2,"shekar") -- will delete 2 values from 
+       index 1 and add shekhar at index 1
+vi. reverse() : reverse is used to reverse the array.
+   array.reverse();
+vii. includes : includes is used to check whether the value is included
+   in the array or not
+   array.includes(value)
+viii. forEach(callback): forEach is a method of array which accepts callback function as paramater and will apply the function to each and every element of the array
+arr2.forEach(function (x,ind)
+{
+    let i = x * x;
+    arr3[ind] = i;
+})
+console.log(arr3)
+
+
+
+
+
+
+
+
+
+
+
+
+

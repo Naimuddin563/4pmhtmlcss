@@ -53,6 +53,41 @@ console.log(res);
 if single statement is there in function body,
 arrow functions not needed the braces and return keyword
 
+ ---->  functions can even call themselves providing encapsulation(data security) called IIFE (Immediate Invoke function Expression)
+
+ --- callback functions:
+    callback functions are the functions which are passed
+    as a parameter to another function
+    function mad(){
+       console.log("i'm mad")
+    }
+    function bad(){
+       console.log("i'm bad")
+    }
+    function fun(a,b){
+      a();b();
+    }
+    fun(mad,bad)
+
+closure: Inner function remembers outer function values even after 
+outer function execution ended
+we use this in techniques called memorization. it means making code able
+to remember previous input and its corresponding output such that
+it will not again calculate for same input
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
