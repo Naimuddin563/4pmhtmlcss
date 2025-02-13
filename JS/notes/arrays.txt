@@ -35,6 +35,54 @@ arr2.forEach(function (x,ind)
     arr3[ind] = i;
 })
 console.log(arr3)
+forEach cannot return the value. To return the values, we can use map.
+map: map is used to iterate through the array and return the values. it will also accept a callback function with two parameters(element,index)
+let result= arr2.map(function (x,ind)
+{
+    let i = x * x;
+     return i;
+})
+filter: filter is used to iterate through the array and returns the values which satisfies the condition.
+let result= arr2.filter(function (x,ind)
+{
+     return x>5;
+})
+some: some is used to iterate through the array and return true if atleast one of the array values satisfies the condition
+else it reurns false
+let result= arr2.some(function (x,ind)
+{
+     return x>5;
+})
+every: every is used to iterate through the array and return true if all the
+values of the array satisfies the condition
+let result= arr2.every(function (x,ind)
+{
+     return x>5;
+})
+sort(): sort is used to iterate through the array and sort the elements alphabetically
+sort will accept a callback function which takes 2 neighbour elements as parameters and will perform following algorithm
+  --- if sort returns -ve , move to next neighbour elements
+  --- if sort returns +ve, swap the elements
+  --- repeat until all neighbours results -ve
+
+  ascending logic ==> arr.sort((a,b)=>a-b);
+  descending logic ==> arr.sort((a,b)=>b-a);
+
+reduce: reduce is used for cumulative operations which always works on adding up previous results
+let result = arr.reduce((prev,curr)=>prev+curr,0) ,
+ it will result sum of all elements in the array
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

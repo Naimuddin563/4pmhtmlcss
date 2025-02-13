@@ -1,0 +1,11 @@
+Objects: objects are physical entities which have behaviour and properties
+objects reprents with {}
+eg: let x= {
+    name:"john",
+    age:55
+}
+we can access object values using
+i. dot notation:
+      console.log(x.name);
+ii. index signature:
+     console.log(x['name'])
