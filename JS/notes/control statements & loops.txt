@@ -1,0 +1,140 @@
+Decision making statements or control statements:
+
+These statements are used to check a condition and based on the result, they change the flow or execution of code. popular decision making statments are
+  i. if
+  ii. switch
+
+i. if: if is used to check a condition and decide the flow based on result.
+  simple if: 
+   if(condition){
+    //code
+   }
+  if..else:
+   if(condition){
+    //code
+   }
+   else
+   {
+    //code
+   }
+
+  if..else..if ladder
+  if(condition1){
+    //code
+  }
+  else if(condition2)
+  {
+    //code
+  }
+  else if(condition3){
+    //code
+  }
+  else{
+
+  }
+  if statements can be written nested (if inside if)
+  if(condition1){
+    if(condition2){
+        //code
+    }
+  }
+
+  switch-case: switch is used to select a particular choice of case and runs it. it is an alternative for if-else-if ladder
+   syntax: 
+   switch(value){
+     case value1: //code; break;
+     case value2: //code; break;
+     case value3: //code; break;
+     default: //code
+   }
+  There are two jump statements which are used to stop the
+  flow of block. they are break and continue;
+  break: break is a keyword used to break the current block, it goes to end of 
+  current block execution
+  continue: continue is a keyword used to break the current block, it goes to start of current block execution and repeat condition checking.
+
+
+loops: loops are used to iterate certain statements until the condition is false.
+  There are two kinds of loops.
+ i. entry control loops
+ ii. exit control loops
+
+ i. Entry Control Loop:
+     it check the condition at the starting of the loops
+     eg: while, for
+ ii. Exit Control loop:
+     it checks the condition at the ending of the loops 
+     eg: do-while
+
+i. while: while is a entry control loop which has initialization , condition and updation at different levels
+
+initialization;
+while(condition){
+    //code
+    updation;
+}
+
+
+ii. do-while: do while is a exit control loop which is used to run a loop of statements even the condition is false.
+initialization;
+while(condition){
+    //code
+    updation;
+}
+
+ii. for : for is a entry control loop which is used to iterate certain statements until the condition fails.
+it contains initialization,condition,updation in same line
+  standard for:
+      for(initialization;condition;updation){
+        //statements
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
