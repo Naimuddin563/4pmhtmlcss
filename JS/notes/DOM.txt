@@ -1,0 +1,28 @@
+Document Object Model: BRowser provides a web API called 'document' which contains total structure and style of the web page.
+Javascript can access, change HTML/CSS by using document object
+   
+   i. DOM selection:
+   you can select html elements in javascript multiple ways. most popular are:
+     a. getElementsByTagName('tag'): it returns an array of all the tag elements from HTML
+     b.getElementsByClassName('class'): it returns an array of all the class named elements from HTML
+     c.getElementById('id'): it selects element with
+     specific Id from HTML.
+     d.querySelector('query'): it is used to select an element based on query but it select only first element that matched the query
+     e.querySelectorAll: it is used to select an element based on Query but it selects all elements which matches the condition
+
+     console.log(document.getElementsByTagName('h1'))
+console.log(document.getElementsByClassName('h'))
+console.log(document.getElementById('heading'))
+console.log(document.querySelector('.h'))
+console.log(document.querySelectorAll(".h"))
+
+
+
+
+
+
+
+
+
+
+
