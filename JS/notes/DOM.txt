@@ -17,6 +17,17 @@ console.log(document.querySelector('.h'))
 console.log(document.querySelectorAll(".h"))
 
 
+ ii . Manipulation:
+     a.textContent: textContent is used to access/manipulate the text inside an element
+     b.innerText : innerText is also used to access/manipulate the text inside an element but it also considers CSS
+     c.innerHTML : innerHTML is used to acess/change complete 
+     HTML code
+     d.value : value is used to access/change input values
+     e. classList/className : used to access/change class names
+     f. style: style is used access/change style of an element
+
+
+
 
 
 
