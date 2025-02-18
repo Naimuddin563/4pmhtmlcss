@@ -26,6 +26,13 @@ console.log(document.querySelectorAll(".h"))
      e. classList/className : used to access/change class names
      f. style: style is used access/change style of an element
 
+iii. DOM creation:
+       DOM creation is used to create HTML elements using DOM.
+       we can use method 'createElement'
+    To attach the element we can use,
+    append: it is used for appending multiple elements
+    appendChild: it is used for appending single element
+
 
 
 
