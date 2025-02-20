@@ -1,0 +1,22 @@
+ events are used to trigger some functions/actions based on user response.
+  we can mention different types of events such as
+i. mouseEvents: These events are triggered when user applies response with  mouse
+  eg: onclick,ondblclick,onmouseover,onmouseout,onmousemove etc..,
+
+ii. keyboardEvents: These events are triggered when user applies response with keyboard
+eg:  keyup,keydown
+
+iii. formEvents: These events are triggered when user
+applies response with forms/inputs.
+ eg: oninput, onchange,onselect,onsubmit etc..,
+
+iv. windowEvents: These events are triggered when user applies response with whole window
+ eg: onscroll,onreSize,onScrollEnd etc..,
+
+
+
+
+
+
+
+
