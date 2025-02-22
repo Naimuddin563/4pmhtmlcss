@@ -1,0 +1,55 @@
+API (Application Programming Interface):
+    It acts like a bridge between frontend and backend where backend sends the data to frontend by endpoints.
+  eg: swiggy gets google locations or netflix gets geolocation etc..,
+APIs are used for typically httpRequests such as GET,POST,PUT,DELETE etc..,
+
+How to use API's?
+   In olden times , we used to work with API's using XHR(xmlHttpRequests), but now browsers have default method called fetch which also works XHR only underneath
+   fetch is a web api which is used for HttpRequests. fetch returns Promise. A Promise is a object which have three states(pending,fulfilled,rejected) and it descibes eventual completion of asynchronous operation
+
+  Promises are resolved by then and catch blocks. Fulfilled state of a promise triggers then block and rejected state of a promise triggers catch block
+ 
+eg:  fetch(url)
+          .then(function(res){
+                 // success code of a promise  with 'res' response     
+           }
+          .catch(function(err){
+               // rejected code of a promise with 'err' error
+           }
+
+  promises can be combined one after the other called promise chaining
+    eg: Promise
+                 .then(()=> newPromise)
+                 .then(()=> resolve)
+                 .catch(()=>catchLogic)
+
+just try these links:
+random joke: https://official-joke-api.appspot.com/random_joke
+
+randomQuote: https://dummyjson.com/quotes/random
+
+fakestoreAPI: https://fakestoreapi.com/products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
