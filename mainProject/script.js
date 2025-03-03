@@ -48,6 +48,7 @@ function displayData (id, products)
         productDiv.classList.add('card')
         const productImage = document.createElement('img');
         productImage.classList.add('card-img-top')
+        productImage.height = 200;
         productImage.src = p.image; productImage.alt = p.title;
         const productTitle = document.createElement('h2');
         productTitle.classList.add("card-title");
