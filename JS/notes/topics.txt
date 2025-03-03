@@ -15,4 +15,5 @@ ASYNC JS
      -- ES6
      -- BOM
      -- OOPs
+     -- prototype inheritance
      -- libraries,Jquery
