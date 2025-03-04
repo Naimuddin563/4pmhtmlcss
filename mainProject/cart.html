@@ -15,7 +15,7 @@
 			rel="stylesheet"
 			href="style.css" />
 	</head>
-	<body>
+	<body id="bd" style="height: 100vh;">
 		<header>
 			<nav class="navbar navbar-expand-lg bg-dark">
 				<div class="container-fluid d-flex gap-2">
@@ -121,14 +121,33 @@
         <main class=" container py-5" id="mainDiv">
 
         </main>
+		<div id="checkout" class="container d-flex justify-content-between">
+			<p id="total"></p>
+			<button class="btn btn-success">checkout</button>
+		</div>
 		<footer>
 			This site belongs to P.R.A.S.A.D &copy; 2024
 		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.birds.min.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"></script>
 		<script src="./cart.js"></script>
                 <script src="./common.js"></script>
+				<script>
+					VANTA.BIRDS({
+  el: "#bd",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+
+				</script>
 	</body>
 </html>
