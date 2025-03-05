@@ -17,3 +17,21 @@ do projects
 1. goto dribble.com create an account and weekly twice post designs(use figma)
 2. goto behance.com create an account and weekly twice post designs(use figma)3. 3. daily spend atleast 5 minutes on medium, dev.to or hashnode.dev
 4. goto fiverr.com and upwork.com create accounts and posts your skills/service you can provide
+
+
+https://github.com/DhanushNehru/Ultimate-Web-Development-Resources
+
+freelancing:
+  1. fiverr,upwork
+  2. blogging(dev.to,medium)
+  3. develop ur own projects,open source
+  4. sell designs in dribble,behance, theme forest
+  5. use social media
+
+  https://roadmap.sh/
+
+
+
+
+
+
